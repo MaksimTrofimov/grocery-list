@@ -67,3 +67,7 @@ body {
     cursor: pointer;
     color: #dc3545;
 }
+
+.alert {
+    min-height: 30px;
+}
