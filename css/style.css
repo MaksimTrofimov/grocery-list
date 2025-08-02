@@ -1,0 +1,69 @@
+body {
+    background: #ebfef9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grocery {
+    margin-top: 40px;
+    background: #fff;
+    min-height: 300px;
+    width: 500px;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.grocery__title, .grocery__form {
+    display: flex;
+    justify-content: center;
+    color: #384c46;
+}
+
+.grocery__form {
+    gap: 10px;
+}
+
+.grocery__list {
+    margin: 10px 50px;
+    line-height: 20px;
+}
+
+.grocery__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.grocery__text {
+    /* без flex-grow */
+}
+
+.grocery__buttons {
+    display: flex;
+    gap: 8px;
+}
+
+.grocery__edit-btn,
+.grocery__delete-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.grocery__edit-btn {
+    color: #007bff;
+}
+
+.grocery__delete-btn {
+    color: #dc3545;
+}
+
+.grocery__clear {
+    text-align: center;
+    cursor: pointer;
+    color: #dc3545;
+}
